@@ -11,7 +11,7 @@ export class AppComponent {
 
   people: string[] = ['lewis', 'jules', 'ed', 'nathan', 'dave', 'nigel'];
 
-  addFriend() {
+  addFriend():void {
     if (!this.newFriend) {
       return;
     }
